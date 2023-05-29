@@ -435,6 +435,16 @@
 	 height: 43px;
 	 z-index:42;
 } 
+#BOTTOMBAR
+{ 
+	 height: 50px;
+	 width: 100px;
+	 background-color: #555;
+	 left: 396px; 
+	 top: 841px; 
+	 position: absolute; 
+	 z-index:42;
+} 
 
  #VectorSmartObject_0 
 { 
@@ -452,8 +462,9 @@
 	 top: -9px; 
 	 position: absolute; 
 	 width: 2533px;
-	 height: 1530px;
+	 height: 750px;
 	 z-index:44;
+	 overflow: hidden;
 } 
 
  #Layer627 
@@ -474,6 +485,7 @@
 	 width: 594px;
 	 height: 230px;
 	 z-index:46;
+	 overflow: hidden;
 } 
 
  #Layer628 

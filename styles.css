@@ -188,7 +188,7 @@
 
  #photo14439809957068d 
 { 
-	 left: 602px; 
+	 left: 502px; 
 	 top: 1617px; 
 	 position: absolute; 
 	 width: 253px;
@@ -198,7 +198,26 @@
 
  #photo1458442310124dd 
 { 
-	 left: 338px; 
+	 left: 238px; 
+	 top: 1617px; 
+	 position: absolute; 
+	 width: 253px;
+	 height: 169px;
+	 z-index:27;
+}
+#photo14439809957068d-2 
+{ 
+	 left: 1027px; 
+	 top: 1617px; 
+	 position: absolute; 
+	 width: 253px;
+	 height: 168px;
+	 z-index:25;
+} 
+
+ #photo1458442310124dd-2 
+{ 
+	 left: 765px; 
 	 top: 1617px; 
 	 position: absolute; 
 	 width: 253px;

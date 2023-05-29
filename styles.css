@@ -172,8 +172,9 @@
 	 top: 825px; 
 	 position: absolute; 
 	 width: 1870px;
-	 height: 1246px;
+	 height: 980px;
 	 z-index:23;
+	 overflow: hidden;
 } 
 
  #Rectangle23 

@@ -491,9 +491,13 @@
 	 left: 1079px; 
 	 top: 36px; 
 	 position: absolute; 
-	 width: 87px;
+	 width: 100px;
 	 height: 4px;
 	 z-index:48;
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-style: italic;
+	 color: white;
+	 text-decoration-line: underline;
 } 
 
  #Shape1copy2_0 
@@ -501,9 +505,13 @@
 	 left: 1212px; 
 	 top: 36px; 
 	 position: absolute; 
-	 width: 69px;
+	 width: 100px;
 	 height: 4px;
 	 z-index:49;
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-style: italic;
+	 color: white;
+	 text-decoration-line: underline;
 } 
 
  #01history02t_0 

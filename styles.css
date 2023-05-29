@@ -258,22 +258,12 @@
 
  #photo14439809957068d 
 { 
-	 left: 547px; 
-	 top: 1634px; 
+	 left: 602px; 
+	 top: 1617px; 
 	 position: absolute; 
 	 width: 253px;
 	 height: 168px;
 	 z-index:25;
-} 
-
- #Rectangle23copy 
-{ 
-	 left: 343px; 
-	 top: 1632px; 
-	 position: absolute; 
-	 width: 223px;
-	 height: 138px;
-	 z-index:26;
 } 
 
  #photo1458442310124dd 
@@ -285,6 +275,16 @@
 	 height: 169px;
 	 z-index:27;
 } 
+#rectangle {
+	left: 0px; 
+	top: 1600px; 
+	position: absolute; 
+  height: 205px;
+  width: 1500px;
+  background-color: blue;
+	z-index: 25;
+	opacity: 0.5
+}
 
  #Rectangle23_0 
 { 

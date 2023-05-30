@@ -36,16 +36,6 @@
 	 z-index:4;
 }
 
- #photo1414449381078c7 
-{ 
-	 left: -14px; 
-	 top: 1848px; 
-	 position: absolute; 
-	 width: 1652px;
-	 height: 1236px;
-	 z-index:7;
-}
-
 #mountain1-schedule 
 { 
 	 left: 30px; 
@@ -100,8 +90,9 @@
 	 top: 1735px; 
 	 position: absolute; 
 	 width: 1653px;
-	 height: 1102px;
+	 height: 800px;
 	 z-index:10;
+	 overflow: hidden;
 } 
 
  #Rectangle22_0 

@@ -108,21 +108,21 @@
 
  #MOUNTAIN2 
 { 
-	 left: 483px; 
-	 top: 1994px; 
+	 left: 450px; 
+	 top: 1985px; 
 	 position: absolute; 
-	 width: 100px;
-	 height: 18px;
+	 width: 125px;
+	 height: 40px;
 	 z-index:19;
 } 
 
  #MOUNTAIN1 
 { 
-	 left: 339px; 
-	 top: 1994px; 
+	 left: 325px; 
+	 top: 1985px; 
 	 position: absolute; 
-	 width: 98px;
-	 height: 23px;
+	 width: 125px;
+	 height: 40px;
 	 z-index:19;
 } 
 
@@ -136,16 +136,8 @@
 	z-index: 17;
 	opacity: 0.5
 }
-
-#rectangle3 {
-	left: 325px; 
-	top: 1985px; 
-	position: absolute; 
-  height: 40px;
-  width: 125px;
-  background-color: gray;
-	z-index: 18;
-	opacity: 0.7
+.active {
+  background-color: #ccc;
 }
 
  #Crasscelerisqueidqua 

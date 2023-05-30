@@ -24,17 +24,17 @@
 			<div id="second page">
 				<div id="photo1414449381078c7"><img src="images/photo1414449381078c7.png"></div>
 				<div id="rectangle2">
-					<button id="MOUNTAIN2"><img src="images/MOUNTAIN2.png"></button>
-					<button id="MOUNTAIN1"><img src="images/MOUNTAIN1.png"></button>
+					<button id="MOUNTAIN2" onclick="switchTab(event)"><img src="images/MOUNTAIN2.png"></button>
+					<button id="MOUNTAIN1" onclick="switchTab(event)"><img src="images/MOUNTAIN1.png"></button>
 				</div>
 				<div id="schedule-container">
 					<div id="SCHEDULE"><img src="images/SCHEDULE.png"></div>
+					<div id="mountain2-schedule" class="hidden" ><img src="images/25Nov2016Vestibulumv.png"></div>
+					<div id="mountain1-schedule" class="visible"><img src="images/17Nov2016Vestibulumv.png"></div>
 				</div>
 			</div>
 			<div id="COPYRIGHT2016ALLRIGH"><img src="images/COPYRIGHT2016ALLRIGH.png"></div>
-			<div id="17Nov2016Vestibulumv"><img src="images/17Nov2016Vestibulumv.png"></div>
 			<div id="photo141702142391407"><img src="images/photo141702142391407.png"></div>
-			<div id="25Nov2016Vestibulumv"><img src="images/25Nov2016Vestibulumv.png"></div>
 			<div id="Crasscelerisqueidqua"><img src="images/Crasscelerisqueidqua.png"></div>
 			<div id="CLIMB"><img src="images/CLIMB.png"></div>
 			<div id="layer_02"><img src="images/layer_02.png"></div>
@@ -52,18 +52,14 @@
 			<div id="Logo2"><img src="images/Logo.png"></div>
 		</div>
 		<script>
-			function openCity(evt, cityName) {
-				var i, tabcontent, tablinks;
-				tabcontent = document.getElementsByClassName("tabcontent");
-				for (i = 0; i < tabcontent.length; i++) {
-					tabcontent[i].style.display = "none";
+			function switchTab(event) {
+				if(event.currentTarget.id === "MOUNTAIN1") {
+					document.getElementById("mountain1-schedule").className = "visible";
+					document.getElementById("mountain2-schedule").className = "hidden";
+				} else {
+					document.getElementById("mountain1-schedule").className = "hidden";
+					document.getElementById("mountain2-schedule").className = "visible";
 				}
-				tablinks = document.getElementsByClassName("tablinks");
-				for (i = 0; i < tablinks.length; i++) {
-					tablinks[i].className = tablinks[i].className.replace(" active", "");
-				}
-				document.getElementById(cityName).style.display = "block";
-				evt.currentTarget.className += " active";
 			}
 			</script>
  </body>

@@ -44,22 +44,40 @@
 	 width: 1652px;
 	 height: 1236px;
 	 z-index:7;
-} 
+}
 
- #17Nov2016Vestibulumv 
+#mountain1-schedule 
 { 
-	 left: 392px; 
-	 top: 2195px; 
+	 left: 30px; 
+	 top: 70px; 
 	 position: absolute; 
 	 width: 270px;
 	 height: 132px;
 	 z-index:9;
 } 
 
+ #mountain2-schedule
+{ 
+	 left: 30px; 
+	 top: 70px; 
+	 position: absolute; 
+	 width: 270px;
+	 height: 132px;
+	 z-index:9;
+}
+
+.visible {
+	visibility: visible;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
  #SCHEDULE 
 { 
-	 left: 20px; 
-	 top: 10px; 
+	 left: 30px; 
+	 top: 20px; 
 	 position: absolute; 
 	 width: 132px;
 	 height: 30px;
@@ -69,8 +87,8 @@
 	left: 360px; 
 	top: 2126px; 
 	position: absolute; 
-  height: 255px;
-  width: 400px;
+  height: 225px;
+  width: 330px;
   background-color: white;
 	z-index: 11;
 	opacity: 0.5
@@ -94,16 +112,6 @@
 	 width: 355px;
 	 height: 232px;
 	 z-index:12;
-} 
-
- #25Nov2016Vestibulumv 
-{ 
-	 left: 392px; 
-	 top: 2195px; 
-	 position: absolute; 
-	 width: 270px;
-	 height: 132px;
-	 z-index:13;
 } 
 
  #SCHEDULE_0 
@@ -392,16 +400,6 @@
 	 overflow: hidden;
 } 
 
- #Layer627 
-{ 
-	 left: 0px; 
-	 top: 0px; 
-	 position: absolute; 
-	 width: 1600px;
-	 height: 912px;
-	 z-index:45;
-} 
-
  #LOSANGELESMOUNTAINSc 
 { 
 	 left: 413px; 
@@ -411,16 +409,6 @@
 	 height: 230px;
 	 z-index:46;
 	 overflow: hidden;
-} 
-
- #Layer628 
-{ 
-	 left: 0px; 
-	 top: 420px; 
-	 position: absolute; 
-	 width: 1600px;
-	 height: 1464px;
-	 z-index:47;
 } 
 
  #Shape1copy_0 

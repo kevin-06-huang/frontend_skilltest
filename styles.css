@@ -16,16 +16,6 @@
 	 z-index:0;
 	} 
 
- #COPYRIGHT2016ALLRIGH 
-{ 
-	 left: 1017px; 
-	 top: 2600px; 
-	 position: absolute; 
-	 width: 264px;
-	 height: 9px;
-	 z-index:3;
-} 
-
  #LOSANGELESMOUNTAINS 
 { 
 	 left: 396px; 
@@ -90,7 +80,7 @@
 	 top: 1735px; 
 	 position: absolute; 
 	 width: 1653px;
-	 height: 800px;
+	 height: 835px;
 	 z-index:10;
 	 overflow: hidden;
 } 
@@ -138,11 +128,12 @@
 	top: 1985px; 
 	position: absolute; 
   height: 40px;
-  width: 1500px;
+  width: 1653px;
   background-color: darkblue;
 	z-index: 17;
 	opacity: 0.5
 }
+
 .active {
   background-color: #ccc;
 }
@@ -326,16 +317,6 @@
 	 z-index:40;
 } 
 
- #01history02t 
-{ 
-	 left: 1081px; 
-	 top: 855px; 
-	 position: absolute; 
-	 width: 192px;
-	 height: 9px;
-	 z-index:41;
-} 
-
  #LOSANGELESMOUNTAINS_0 
 { 
 	 left: 396px; 
@@ -418,16 +399,6 @@
 	 text-decoration-line: underline;
 } 
 
- #01history02t_0 
-{ 
-	 left: 1081px; 
-	 top: 25px; 
-	 position: absolute; 
-	 width: 192px;
-	 height: 9px;
-	 z-index:50;
-} 
-
  #Logo 
 { 
 	 left: 343px; 
@@ -462,4 +433,37 @@
 	 font-style: italic;
 	 color: black;
 	 text-decoration-line: underline;
+}
+
+#COPYRIGHT2016ALLRIGH 
+{ 
+	 left: 1017px; 
+	 top: 2600px; 
+	 position: absolute; 
+	 width: 264px;
+	 height: 9px;
+	 z-index:3;
+} 
+
+#rectangle3 {
+	left: 0px; 
+	top: 2570px; 
+	position: absolute; 
+  height: 80px;
+  width: 1653px;
+  background-color: rgb(51, 51, 112);
+	z-index: 1;
+	opacity: 0.5;
+}
+
+#Logo3
+{ 
+	 left: 346px; 
+	 top: 2585px; 
+	 position: absolute; 
+	 width: 43px;
+	 height: 43px;
+	 z-index:51;
+	 border: 2px solid gray;
+	 border-radius: 50%;
 } 
